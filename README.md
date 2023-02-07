@@ -1,4 +1,4 @@
-# RemoteControlEmulator
+# Remote Control Emulator
 Emulator remote control AIWA RC-CAS01 via COM-port
 
 ## Assembling
