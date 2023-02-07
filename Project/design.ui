@@ -1,0 +1,1059 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>311</width>
+    <height>855</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Remote AIWA RC-CAS01</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../PycharmProjects/RemoteControl/Icon.png</normaloff>../PycharmProjects/RemoteControl/Icon.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+ 	background-color: transparent;
+ 	border-style: solid;
+ 	border-width:0px;
+	border-radius:17px;
+	border-color: red;
+ 	max-width:100px;
+	max-height:100px;
+}
+
+QPushButton::hover{ background: rgba(225, 225, 225, 100); }
+
+QPushButton::pressed{ background: rgb(76, 76, 76) }
+
+#b_REC_MODE{
+ 	background-color: transparent;
+ 	border-style: solid;
+ 	border-width:0px;
+	border-radius:14px;
+	border-color: red;
+ 	max-width:100px;
+	max-height:100px;
+}
+
+#b_REC_MODE::hover{ background: rgba(225, 225, 225, 100); }
+
+#b_REC_MODE::pressed{ 	background: rgb(76, 76, 76) }
+
+#b_REC_REC_MUTE{
+ 	background-color: transparent;
+ 	border-style: solid;
+ 	border-width:0px;
+	border-radius:14px;
+	border-color: red;
+ 	max-width:100px;
+	max-height:100px;
+}
+
+#b_REC_REC_MUTE::hover{	background: rgba(225, 225, 225, 100); }
+
+#b_REC_REC_MUTE::pressed{ background: rgb(76, 76, 76) }
+
+#b_DECK_1_2{
+ 	background-color: transparent;
+ 	border-style: solid;
+ 	border-width:0px;
+	border-radius:13px;
+	border-color: red;
+ 	max-width:100px;
+	max-height:100px;
+}
+
+#b_DECK_1_2::hover{ background: rgba(225, 225, 225, 100); }
+
+#b_DECK_1_2::pressed{ background: rgb(76, 76, 76) }
+
+#b_BAND{
+ 	background-color: transparent;
+ 	border-style: solid;
+ 	border-width:0px;
+	border-radius:14px;
+	border-color: red;
+ 	max-width:100px;
+	max-height:100px;
+}
+
+#b_BAND::hover{ background: rgba(225, 225, 225, 100); }
+
+#b_BAND::pressed{ background: rgb(76, 76, 76) }
+
+#b_SHIFT{
+ 	background-color: transparent;
+ 	border-style: solid;
+ 	border-width:0px;
+	border-radius:13px;
+	border-color: red;
+ 	max-width:100px;
+	max-height:100px;
+}
+
+#b_SHIFT::hover{ background: rgba(225, 225, 225, 100); }
+
+#b_SHIFT::pressed{ background: rgb(76, 76, 76) }
+
+#b_FUNCTION{
+ 	background-color: transparent;
+ 	border-style: solid;
+ 	border-width:0px;
+	border-radius:13px;
+	border-color: red;
+ 	max-width:100px;
+	max-height:100px;
+}
+
+#b_FUNCTION::hover{ background: rgba(225, 225, 225, 100); }
+
+#b_FUNCTION::pressed{ background: rgb(76, 76, 76) }
+
+#b_GEQ{
+ 	background-color: transparent;
+ 	border-style: solid;
+ 	border-width:0px;
+	border-radius:10px;
+	border-color: red;
+ 	max-width:100px;
+	max-height:100px;
+}
+
+#b_GEQ::hover{ background: rgba(225, 225, 225, 100); }
+
+#b_GEQ::pressed{	background: rgb(76, 76, 76) }
+
+#b_SOUND{
+ 	background-color: transparent;
+ 	border-style: solid;
+ 	border-width:0px;
+	border-radius:10px;
+	border-color: red;
+ 	max-width:100px;
+	max-height:100px;
+}
+
+#b_SOUND::hover{ background: rgba(225, 225, 225, 100); }
+
+#b_SOUND::pressed{ background: rgb(76, 76, 76) }
+
+#b_ENTER{
+ 	background-color: transparent;
+ 	border-style: solid;
+ 	border-width:0px;
+	border-radius:10px;
+	border-color: red;
+ 	max-width:100px;
+	max-height:100px;
+}
+
+#b_ENTER::hover{	background: rgba(225, 225, 225, 100); }
+
+#b_ENTER::pressed{ background: rgb(76, 76, 76) }
+
+#b_SET{
+ 	background-color: transparent;
+ 	border-style: solid;
+ 	border-width:0px;
+	border-radius:7px;
+	border-color: red;
+ 	max-width:100px;
+	max-height:100px;
+}
+
+#b_SET::hover{	background: rgba(225, 225, 225, 100); }
+
+#b_SET::pressed{ background: rgb(76, 76, 76) }
+
+#b_POWER{
+	background-color: transparent;
+	border-style: solid;
+	border-width:0px;
+ 	border-radius:20px;
+	border-color: red;
+ 	max-width:100px;
+ 	max-height:100px;
+}
+
+#b_POWER::hover{ background: rgba(225, 225, 225, 100); }
+
+#b_POWER::pressed{ background: rgba(255, 0, 4, 200) }</string>
+   </property>
+   <widget class="QWidget" name="layoutWidget_5">
+    <property name="geometry">
+     <rect>
+      <x>66</x>
+      <y>156</y>
+      <width>34</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="Rec">
+     <property name="spacing">
+      <number>23</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="b_REC_MODE">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="b_REC_REC_MUTE">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>146</x>
+      <y>154</y>
+      <width>41</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="Preset">
+     <property name="spacing">
+      <number>18</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="b_PRESET_UP">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="b_PRESET_DOWN">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>231</x>
+      <y>154</y>
+      <width>41</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="Volume">
+     <property name="spacing">
+      <number>18</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="b_VOLUME_UP">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="b_VOLUME_DOWN">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="b_STOP">
+    <property name="geometry">
+     <rect>
+      <x>111</x>
+      <y>592</y>
+      <width>100</width>
+      <height>37</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="b_SHIFT">
+    <property name="geometry">
+     <rect>
+      <x>59</x>
+      <y>650</y>
+      <width>47</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="b_FUNCTION">
+    <property name="geometry">
+     <rect>
+      <x>219</x>
+      <y>650</y>
+      <width>47</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="b_SET">
+    <property name="geometry">
+     <rect>
+      <x>137</x>
+      <y>548</y>
+      <width>53</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>59</x>
+      <y>422</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="Other_numbers">
+     <property name="spacing">
+      <number>42</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="b_CD_DIRECT">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="b_NUM_0">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="b_NUM_10">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_7">
+    <property name="geometry">
+     <rect>
+      <x>61</x>
+      <y>368</y>
+      <width>209</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="Numbers_7_9">
+     <property name="spacing">
+      <number>42</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="b_NUM_7">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="b_NUM_8">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="b_NUM_9">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_4">
+    <property name="geometry">
+     <rect>
+      <x>61</x>
+      <y>260</y>
+      <width>209</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="Numbers_1_3">
+     <property name="spacing">
+      <number>42</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="b_NUM_1">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="b_NUM_2">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="b_NUM_3">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="background">
+    <property name="geometry">
+     <rect>
+      <x>1</x>
+      <y>0</y>
+      <width>321</width>
+      <height>829</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Remote Controller.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_8">
+    <property name="geometry">
+     <rect>
+      <x>61</x>
+      <y>314</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="Numbers_4_6">
+     <property name="spacing">
+      <number>43</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="b_NUM_4">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="b_NUM_5">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="b_NUM_6">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="b_PLAY">
+    <property name="geometry">
+     <rect>
+      <x>113</x>
+      <y>496</y>
+      <width>100</width>
+      <height>37</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="b_PREV">
+    <property name="geometry">
+     <rect>
+      <x>73</x>
+      <y>518</y>
+      <width>45</width>
+      <height>87</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="b_POWER">
+    <property name="geometry">
+     <rect>
+      <x>56</x>
+      <y>94</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="b_NEXT">
+    <property name="geometry">
+     <rect>
+      <x>209</x>
+      <y>520</y>
+      <width>45</width>
+      <height>87</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="b_DECK_1_2">
+    <property name="geometry">
+     <rect>
+      <x>57</x>
+      <y>484</y>
+      <width>31</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="b_BAND">
+    <property name="geometry">
+     <rect>
+      <x>239</x>
+      <y>486</y>
+      <width>31</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_6">
+    <property name="geometry">
+     <rect>
+      <x>116</x>
+      <y>109</y>
+      <width>161</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="Control" stretch="5,5,5">
+     <property name="spacing">
+      <number>18</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="b_GEQ">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="b_SOUND">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="b_ENTER">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <zorder>background</zorder>
+   <zorder>layoutWidget_5</zorder>
+   <zorder>layoutWidget_3</zorder>
+   <zorder>layoutWidget_2</zorder>
+   <zorder>b_STOP</zorder>
+   <zorder>b_SHIFT</zorder>
+   <zorder>b_FUNCTION</zorder>
+   <zorder>b_SET</zorder>
+   <zorder>layoutWidget</zorder>
+   <zorder>layoutWidget_7</zorder>
+   <zorder>layoutWidget_4</zorder>
+   <zorder>layoutWidget_8</zorder>
+   <zorder>b_PLAY</zorder>
+   <zorder>b_PREV</zorder>
+   <zorder>b_POWER</zorder>
+   <zorder>b_NEXT</zorder>
+   <zorder>b_DECK_1_2</zorder>
+   <zorder>b_BAND</zorder>
+   <zorder>layoutWidget_6</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>311</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Меню</string>
+    </property>
+    <widget class="QMenu" name="menu_COM">
+     <property name="title">
+      <string>Выбрать COM</string>
+     </property>
+    </widget>
+    <addaction name="menu_COM"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action_SelectExit">
+   <property name="text">
+    <string>Выход</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="text">
+    <string>Бог в помощь!</string>
+   </property>
+  </action>
+  <action name="actionCOM1">
+   <property name="text">
+    <string>COM1</string>
+   </property>
+  </action>
+  <action name="actionCOM2">
+   <property name="text">
+    <string>COM2</string>
+   </property>
+  </action>
+  <action name="actionCOM3">
+   <property name="text">
+    <string>COM3</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Выход</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

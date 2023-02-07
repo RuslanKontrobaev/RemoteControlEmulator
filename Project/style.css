@@ -1,0 +1,215 @@
+QPushButton {
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 17px;
+    border-color: red;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+QPushButton::hover {
+    background: rgba(225, 225, 225, 100);
+}
+
+QPushButton::pressed {
+    background: rgb(76, 76, 76)
+}
+
+#b_REC_MODE {
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 14px;
+    border-color: red;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#b_REC_MODE::hover {
+    background: rgba(225, 225, 225, 100);
+}
+
+#b_REC_MODE::pressed {
+    background: rgb(76, 76, 76)
+}
+
+#b_REC_REC_MUTE {
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 14px;
+    border-color: red;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#b_REC_REC_MUTE::hover {
+    background: rgba(225, 225, 225, 100);
+}
+
+#b_REC_REC_MUTE::pressed {
+    background: rgb(76, 76, 76)
+}
+
+#b_DECK_1_2 {
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 13px;
+    border-color: red;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#b_DECK_1_2::hover {
+    background: rgba(225, 225, 225, 100);
+}
+
+#b_DECK_1_2::pressed {
+    background: rgb(76, 76, 76)
+}
+
+#b_BAND {
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 14px;
+    border-color: red;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#b_BAND::hover {
+    background: rgba(225, 225, 225, 100);
+}
+
+#b_BAND::pressed {
+    background: rgb(76, 76, 76)
+}
+
+#b_SHIFT {
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 13px;
+    border-color: red;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#b_SHIFT::hover {
+    background: rgba(225, 225, 225, 100);
+}
+
+#b_SHIFT::pressed {
+    background: rgb(76, 76, 76)
+}
+
+#b_FUNCTION {
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 13px;
+    border-color: red;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#b_FUNCTION::hover {
+    background: rgba(225, 225, 225, 100);
+}
+
+#b_FUNCTION::pressed {
+    background: rgb(76, 76, 76)
+}
+
+#b_GEQ {
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 10px;
+    border-color: red;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#b_GEQ::hover {
+    background: rgba(225, 225, 225, 100);
+}
+
+#b_GEQ::pressed {
+    background: rgb(76, 76, 76)
+}
+
+#b_SOUND {
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 10px;
+    border-color: red;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#b_SOUND::hover {
+    background: rgba(225, 225, 225, 100);
+}
+
+#b_SOUND::pressed {
+    background: rgb(76, 76, 76)
+}
+
+#b_ENTER {
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 10px;
+    border-color: red;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#b_ENTER::hover {
+    background: rgba(225, 225, 225, 100);
+}
+
+#b_ENTER::pressed {
+    background: rgb(76, 76, 76)
+}
+
+#b_SET {
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 7px;
+    border-color: red;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#b_SET::hover {
+    background: rgba(225, 225, 225, 100);
+}
+
+#b_SET::pressed {
+    background: rgb(76, 76, 76)
+}
+
+#b_POWER {
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 20px;
+    border-color: red;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#b_POWER::hover {
+    background: rgba(225, 225, 225, 100);
+}
+
+#b_POWER::pressed {
+    background: rgba(255, 0, 4, 200)
+}
